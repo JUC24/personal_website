@@ -1,0 +1,51 @@
+/*=============== BASE ===============*/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  background-color: $background-color;
+}
+
+a {
+  text-decoration: none;
+  color:$accent-color;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0.7rem;
+}
+
+h1 {
+  line-height: 4rem;
+}
+
+h2 {
+  line-height: 4rem;
+}
+
+.col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+  height: 20rem;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
